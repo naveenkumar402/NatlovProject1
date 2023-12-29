@@ -29,10 +29,8 @@ public class WebConfig {
         CorsConfiguration config = new CorsConfiguration();
         //config.setAllowCredentials(true);
 
-        //config.addAllowedOrigin("http://localhost:3000");
-        //  config.addAllowedOrigin("https://talent-stream-front-end-version2-kwrsb2zt1-eedekarunakar.vercel.app");
-           config.addAllowedOrigin("https://talent-stream-front-end-version2-eedekarunakar.vercel.app");
-// config.addAllowedOrigin("https://talent-stream-lalitha12-web.vercel.app");
+        config.addAllowedOrigin("http://localhost:3000");
+        
      
         config.setAllowedHeaders(Arrays.asList(
                 HttpHeaders.AUTHORIZATION,
